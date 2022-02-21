@@ -1,0 +1,15 @@
+C:\Users\User\source\repos\POOConceptsN1\POOConceptsN1\bin\Debug\net6.0\POOConceptsN1.exe
+C:\Users\User\source\repos\POOConceptsN1\POOConceptsN1\bin\Debug\net6.0\POOConceptsN1.deps.json
+C:\Users\User\source\repos\POOConceptsN1\POOConceptsN1\bin\Debug\net6.0\POOConceptsN1.runtimeconfig.json
+C:\Users\User\source\repos\POOConceptsN1\POOConceptsN1\bin\Debug\net6.0\POOConceptsN1.dll
+C:\Users\User\source\repos\POOConceptsN1\POOConceptsN1\bin\Debug\net6.0\POOConceptsN1.pdb
+C:\Users\User\source\repos\POOConceptsN1\POOConceptsN1\obj\Debug\net6.0\POOConceptsN1.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\POOConceptsN1\POOConceptsN1\obj\Debug\net6.0\POOConceptsN1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\source\repos\POOConceptsN1\POOConceptsN1\obj\Debug\net6.0\POOConceptsN1.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\POOConceptsN1\POOConceptsN1\obj\Debug\net6.0\POOConceptsN1.AssemblyInfo.cs
+C:\Users\User\source\repos\POOConceptsN1\POOConceptsN1\obj\Debug\net6.0\POOConceptsN1.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\POOConceptsN1\POOConceptsN1\obj\Debug\net6.0\POOConceptsN1.dll
+C:\Users\User\source\repos\POOConceptsN1\POOConceptsN1\obj\Debug\net6.0\refint\POOConceptsN1.dll
+C:\Users\User\source\repos\POOConceptsN1\POOConceptsN1\obj\Debug\net6.0\POOConceptsN1.pdb
+C:\Users\User\source\repos\POOConceptsN1\POOConceptsN1\obj\Debug\net6.0\POOConceptsN1.genruntimeconfig.cache
+C:\Users\User\source\repos\POOConceptsN1\POOConceptsN1\obj\Debug\net6.0\ref\POOConceptsN1.dll
