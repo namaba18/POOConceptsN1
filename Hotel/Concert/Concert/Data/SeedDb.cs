@@ -14,7 +14,6 @@ namespace Concert.Data
         public async Task SeedAsync()
         {
             await _context.Database.EnsureCreatedAsync();
-            await CheckEntraceAsync();
             await CheckTicketAsync();
         }
 
@@ -22,15 +21,55 @@ namespace Concert.Data
         {
             if (! _context.Tickets.Any())
             {
-                for (int i = 0; i < 5000; i++)
+                for (int i = 0; i < 1250; i++)
                 {
                     _context.Tickets.Add(new Ticket
                     {
+                        Id = i,
                         WasUsed = false,
-                        Document = "123",
-                        Name = "xxxxx",
+                        Document = "",
+                        Name = "",
                         Date = DateTime.Today,
                         Entrace = new Entrace { Description = "Norte" }
+
+                    });
+                }
+                for (int i = 1250; i < 2500; i++)
+                {
+                    _context.Tickets.Add(new Ticket
+                    { 
+                        Id=i,
+                        WasUsed = false,
+                        Document = "",
+                        Name = "",
+                        Date = DateTime.Today,
+                        Entrace = new Entrace { Description = "Sur" }
+
+                    });
+                }
+                for (int i = 2500; i < 3750; i++)
+                {
+                    _context.Tickets.Add(new Ticket
+                    {
+                        Id = i,
+                        WasUsed = false,
+                        Document = "",
+                        Name = "",
+                        Date = DateTime.Today,
+                        Entrace = new Entrace { Description = "Oriente" }
+
+                    });
+                }
+                for (int i = 3750; i < 5000; i++)
+                {
+                    _context.Tickets.Add(new Ticket
+                    {
+                        Id = i,
+                        WasUsed = false,
+                        Document = "",
+                        Name = "",
+                        Date = DateTime.Today,
+                        Entrace = new Entrace { Description = "Occidente" }
 
                     });
                 }
@@ -39,17 +78,7 @@ namespace Concert.Data
             }
         }
 
-        private async Task CheckEntraceAsync()
-        {
-            if (!_context.Entraces.Any())
-            {
-                _context.Entraces.Add(new Entrace { Description = "Norte" });
-                _context.Entraces.Add(new Entrace { Description = "Sur" });
-                _context.Entraces.Add(new Entrace { Description = "Oriental" });
-                _context.Entraces.Add(new Entrace { Description = "Occidental" });
-                await _context.SaveChangesAsync();
-            }
-        }
+        
     }
 }
 

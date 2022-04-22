@@ -1,11 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Concert.Data.Entities
+namespace Concert.Models
 {
-    public class Ticket
+    public class TicketViewModel
     {
         [Display(Name ="Código")]
         public int Id { get; set; }
+
         [Display(Name = "Usado")]
         [MaxLength(50, ErrorMessage = "El campo {0} debe tener máximo {1} caractéres.")]
         [Required(ErrorMessage = "El campo {0} es obligatorio.")]
@@ -23,9 +24,8 @@ namespace Concert.Data.Entities
 
         [Display(Name = "Fecha")]
         [Required(ErrorMessage = "El campo {0} es obligatorio.")]
-        [DataType(DataType.Date)]
         public DateTime Date { get; set; }
 
-        public Entrace Entrace { get; set; }
+        public String Entrace { get; set; }
     }
 }

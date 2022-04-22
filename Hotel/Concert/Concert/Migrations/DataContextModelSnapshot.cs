@@ -37,7 +37,7 @@ namespace Concert.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Entraces");
+                    b.ToTable("Entraces", (string)null);
                 });
 
             modelBuilder.Entity("Concert.Data.Entities.Ticket", b =>
@@ -75,7 +75,7 @@ namespace Concert.Migrations
                     b.HasIndex("Name")
                         .IsUnique();
 
-                    b.ToTable("Tickets");
+                    b.ToTable("Tickets", (string)null);
                 });
 
             modelBuilder.Entity("Concert.Data.Entities.Ticket", b =>
